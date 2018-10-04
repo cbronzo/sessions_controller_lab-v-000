@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
       redirect_to sessions_new_path
     else
       redirect_to '/'
+    end
 
   end
   
