@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       if session[:name] == nil || session[:name].empty?
       redirect_to sessions_new_path
     else
-      redirect_to root_path
+      redirect_to '/'
 
   end
   
